@@ -1,0 +1,32 @@
+# Estilo Matplotlib institucional UNIB.E — Machine Learning (spec §4)
+# Uso en los notebooks:  plt.style.use("utils/unibe.mplstyle")
+# Colores: azul #004890 (oficial), naranja #C2410C, dorado derivado #A87900, verde #3A7D44, gris #77787B.
+
+axes.prop_cycle : cycler('color', ['004890', 'C2410C', 'A87900', '3A7D44', '77787B'])
+axes.edgecolor : 77787B
+axes.labelcolor : 16191D
+axes.titlecolor : 004890
+axes.titleweight : bold
+axes.titlesize : 13
+axes.labelsize : 11
+axes.grid : True
+axes.axisbelow : True
+axes.spines.top : False
+axes.spines.right : False
+grid.color : E8EDF2
+grid.linewidth : 0.8
+xtick.color : 5E5F62
+ytick.color : 5E5F62
+text.color : 16191D
+font.family : sans-serif
+font.sans-serif : Arial, Liberation Sans, DejaVu Sans
+font.size : 10.5
+legend.frameon : False
+figure.facecolor : FFFFFF
+figure.dpi : 110
+savefig.dpi : 150
+savefig.bbox : tight
+image.cmap : Blues
+lines.linewidth : 2.0
+patch.edgecolor : FFFFFF
+scatter.edgecolors : face
